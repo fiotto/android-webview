@@ -23,7 +23,7 @@ class SecondFragment : Fragment() {
 
         //xmlのWebViewで指定したid
         val myWebView: WebView = view.findViewById(R.id.webview)
-        myWebView.loadUrl("https://m.yahoo.co.jp")
+        myWebView.loadUrl("http://10.0.2.2:8080/")
 
         return view
     }
